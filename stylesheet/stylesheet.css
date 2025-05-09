@@ -1,0 +1,912 @@
+/***************************************************************************/
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    background-color: #0072CE;
+}
+
+/***************************************************************************/
+
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin: 10px;
+}
+
+#header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left img {
+    height: 100px;
+    margin-right: 15px;
+    border-radius: 15px;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.header_btn {
+    display : flex;
+    flex-direction: column;
+}
+
+.profil_icon {
+    align-self: center;
+    border-radius: 50%;
+    height:75px;
+    width: 75px;
+    margin-right : 20px;
+    display: grid;
+}
+
+.header-right a{
+    align-self: center ;
+}
+
+.header-right img {
+    align-self: center;
+
+    height:75px;
+    width: 75px;
+    margin-right : 20px;
+    display: grid;
+}
+
+.header-right button {
+    margin: 5px 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.header-right .btn-connexion {
+    background-color: #FFC700;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header-right .btn-inscription {
+    background-color: #34D399;
+    color: #fff;
+    font-weight: bold;
+}
+
+/***************************************************************************/
+
+.home {
+    background-image: url(../picture/logo_parisEvents.png);
+    background-size: 2000px;
+    background-position-x: -800px;
+    background-position-y: -400px;
+    
+    
+    text-align: center;
+    padding: 0px;
+    border-radius: 15px;
+    margin: 20px 10px;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.home .content {
+    border-radius: 15px ;
+    padding: 60px 40px;
+    backdrop-filter: blur(3px);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.home .content h2 {
+    
+    
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    
+}
+
+.home .presentation {
+    max-width: 100%;
+    margin: 0 auto;
+    background: rgba(0,0,0, 0.7);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    
+}
+
+.home .presentation p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+
+.home .reservation-btn button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #34D399;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    color :#ffffff;
+}
+
+/***************************************************************************/
+
+.connexion {
+    background-image: url(../picture/logo_parisEvents.png);
+    background-size: 2000px;
+    background-position-x: -800px;
+    background-position-y: -400px;
+    
+    
+    text-align: center;
+    padding: 0px;
+    border-radius: 15px;
+    margin: 20px 10px;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.connexion .content {
+    border-radius: 15px ;
+    padding: 60px 40px;
+    backdrop-filter: blur(3px);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.connexion .content h2 {
+    
+    
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    
+}
+
+.connexion .form-inscription {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 40px;
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.connexion .form-inscription h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.connexion .form-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.connexion .form-fields {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.connexion .form-fields label {
+    font-size: 18px;
+}
+
+.connexion .form-fields input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+}
+
+.connexion .form-fields button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FFC700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.connexion .form-fields button:hover {
+    background-color: #000000;
+}
+
+.connexion .captcha {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.connexion .captcha-box {
+    width: 150px;
+    height: 150px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ddd;
+    margin-top: 10px;
+}
+
+/***************************************************************************/
+
+.inscription {
+    background-image: url(../picture/logo_parisEvents.png);
+    background-size: 2000px;
+    background-position-x: -800px;
+    background-position-y: -400px;
+    
+    
+    text-align: center;
+    padding: 0px;
+    border-radius: 15px;
+    margin: 20px 10px;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.inscription .content {
+    border-radius: 15px ;
+    padding: 60px 40px;
+    backdrop-filter: blur(3px);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.inscription .content h2 {
+    
+    
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    
+}
+
+.inscription .form-inscription {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 40px;
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.inscription .form-inscription h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.inscription .form-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.inscription .form-fields {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.inscription .form-fields label {
+    font-size: 18px;
+}
+
+.inscription .form-fields input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+}
+
+.inscription .form-fields button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #34D399;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+
+.inscription .captcha {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.inscription .captcha-box {
+    width: 150px;
+    height: 150px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ddd;
+    margin-top: 10px;
+}
+
+/***************************************************************************/
+
+.imageRes{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    z-index: 2;
+}
+
+.titre_article p{
+    font-size: 30px !important;
+}
+
+.reservation {
+    background-image: url(../picture/logo_parisEvents.png);
+    background-size: 2000px;
+    background-position-x: -800px;
+    background-position-y: -400px;
+    
+    
+    
+    text-align: center;
+    padding: 0px;
+    border-radius: 15px;
+    margin: 20px 10px;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.reservation .content{
+
+    border-radius: 15px ;
+    padding: 60px 40px;
+    backdrop-filter: blur(3px);
+    margin: 0px;
+
+    display: grid;
+
+    color: black;
+    
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.reservation main h2 {
+    font-size: 32px;
+    color: black;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.reservation .reservation-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+    background-color: #444;
+
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left; 
+    
+    
+    
+
+}
+
+.reservation .reservation-block {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 15px;
+    width:100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+    min-height: 500px;
+}
+
+.reservation .reservation-block p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.reservation .image-container {
+    background-color: #666;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.reservation .reservation-block .ajouter {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #34D399;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+/*.reservation .reservation-block a:hover {
+    background-color: #28a384;
+}*/
+
+.reservation .ul_reservationY{
+    height: 700px;
+    overflow: auto;
+    overflow-y: scroll;
+
+    position:relative;
+    
+    padding: 0px;
+    margin: 20px;
+    margin-left:-10px;
+
+    width: 100%;
+
+    padding-right: 20px;
+    margin-right: 0px;
+
+
+    margin-top: 10px;
+}
+
+.reservation .ul_reservationX{
+    height: fit-content;
+    overflow:visible;
+
+    padding: 0px;
+
+    display: flex;
+    
+    justify-content: space-around;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.reservation .li_reservation{
+
+
+
+    margin-bottom: 20px;
+    
+    display: inline-block;
+    max-width : 100%;
+    width:30%;
+
+   
+    
+    
+}
+
+.reservation .btnRes{
+    border: 2px solid black;
+    margin: 5px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+
+    background-color: #FFC700;
+    color: #fff;
+    font-weight: bold;
+}
+
+.swap{
+    justify-self: right;
+
+}
+
+
+/***************************************************************************/
+
+.panier {
+    background-image: url(../picture/logo_parisEvents.png);
+    background-size: 2000px;
+    background-position-x: -800px;
+    background-position-y: -400px;
+    
+    
+    text-align: center;
+    border-radius: 15px;
+    margin: 20px 10px;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.panier .main{
+    backdrop-filter: blur(3px);
+    border-radius: 15px ;
+    padding: 60px 40px;
+    
+    margin : 0 auto;
+}
+
+.panier .content {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    border-radius: 15px ;
+    padding: 60px 40px;
+    
+    margin : 0 auto;
+}
+
+.panier main h2 {
+    font-size: 32px;
+    color: black;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.panier .cart-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.panier .cart-items {
+    width: 60%;
+}
+
+.panier .cart-item {
+    display: flex;
+    background-color: #333;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.panier .image-container {
+    background-color: #666;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.panier .corbeille {
+    height: 50px;
+    width: 50px;
+}
+
+.panier .corbeille img{
+    height: 50px;
+    width: 50px;
+}
+
+.panier .plusmoins{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -20px;
+}
+
+.panier .plusmoins a{
+    height: 50%;
+}
+
+.panier .plusmoins a img{
+    height: 50%;
+}
+
+.panier .item-details p {
+    margin: 5px 0;
+}
+
+.panier ul.liste{
+    height: fit-content;
+    overflow: auto;
+    overflow-y: scroll;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    position:relative;
+    align-self: self-start;
+}
+
+.panier .cart-items ul.liste{
+    height: 400px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.panier .cart-summary {
+    width: 35%;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    height: 400px;
+    display: grid;
+}
+
+.panier .list{
+    height: 300px;
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+
+.panier .cart-summary p {
+
+    margin: 10px 0;
+    align-self: flex-end;
+}
+
+.panier .cart-summary .somme{
+    align-self: self-end;
+}
+
+.panier .payment-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.panier .payment-option {
+    width: 45%;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.panier .payment-option h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #34D399;
+}
+
+.panier .payment-option p {
+    font-size: 16px;
+    color: white;
+}
+
+
+/***************************************************************************/
+
+.deconnexion {
+    background-image: url(../picture/logo_parisEvents.png);
+    background-size: 2000px;
+    background-position-x: -800px;
+    background-position-y: -400px;
+    
+    
+    text-align: center;
+    padding: 0px;
+    border-radius: 15px;
+    margin: 20px 10px;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.deconnexion .content {
+    border-radius: 15px ;
+    padding: 60px 40px;
+    backdrop-filter: blur(3px);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.deconnexion button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FFC700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+/***************************************************************************/
+/***************************************************************************/
+
+
+#footer {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FF4B4B;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#footer h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#footer .faq, .contact {
+    color : #ffffff;
+    display: inline-block;
+    vertical-align: top;
+    width: 36%;
+    margin: 0 2%;
+    text-align: left;
+    background-color: rgba(0,0,0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 400px;
+    min-height: 300px;}
+
+    #footer .faq h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#footer .contact h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+#footer .faq ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#footer .faq ul li {
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+#footer .contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer .contact form input, .contact form textarea {
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#footer .contact form textarea {
+    resize: none;
+}
+
+#footer .contact form button {
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffc107;
+    font-weight: bold;
+    cursor: pointer;
+}
